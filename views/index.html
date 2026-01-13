@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timestamp Microservice</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main class="layout">
+      <article class="card">
+        <header class="card__header">
+          <h1 class="card__title">Timestamp Microservice</h1>
+          <div class="card__status">
+            <span class="status-dot"></span>
+            <span class="status-text">System Online</span>
+          </div>
+        </header>
+
+        <section class="card__body">
+          <div class="info-block">
+            <h2 class="info-block__label">Usage</h2>
+            <ul class="endpoint-list">
+              <li>
+                <a class="endpoint-link" href="api/2015-12-25"
+                  >[project url]/api/2015-12-25</a
+                >
+              </li>
+              <li>
+                <a class="endpoint-link" href="api/1451001600000"
+                  >[project url]/api/1451001600000</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="info-block">
+            <h2 class="info-block__label">Output</h2>
+            <div class="code-display">
+              <code
+                >{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00
+                GMT"}</code
+              >
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

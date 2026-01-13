@@ -1,2 +1,3 @@
-# freeCodeCamp-Backend-Projects
-A collection of all the backend projects that were required to gain my certificates
+# Timestamp Microservice
+
+The timestamp microservice project required for the freeCodeCamp backend development certificate.
